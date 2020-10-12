@@ -1,1 +1,1 @@
-
+worker: python deepy.py
