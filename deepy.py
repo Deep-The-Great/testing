@@ -12,4 +12,4 @@ async def on_ready():
 async def hello(ctx):
 	await ctx.send("Hi")
 
-client.run(os.environ('BOT_TOKEN'))
+client.run(os.getenv('BOT_TOKEN'))
